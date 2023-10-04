@@ -1,7 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const coursemodel = require("../../models/Course.js");
+const coursemodel = require("../../models/Course.js"); 
 // const fileUpload = require('express-fileupload');
+
 //mongoose
 const mongoose = require("mongoose");
 var multer = require("multer");
